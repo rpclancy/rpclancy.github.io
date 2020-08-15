@@ -27,13 +27,11 @@ description: Put in a new description here.
 * Edit index.md
 * Make use of [Markdown](https://guides.github.com/features/mastering-markdown/)
 * e.g.:
-`code
-# Header 1
-## Header 2
-### Header 3
-**Bold** and _Italic_ and `Code` text
-[Link](url) and ![Image](src)
-`
+* # Header 1
+* ## Header 2
+* ### Header 3
+* **Bold** and _Italic_ and `Code` text
+* [Link](url) and ![Image](src)
 
 ### Step 7. Add more pages
 * Create additional .md files to create extra pages
