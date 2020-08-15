@@ -24,12 +24,23 @@ description: Put in a new description here.
 
 (You can use <br> for new lines)
 ```
+
 ### Step 6. Customise your homepage
 * Edit index.md
 * Make use of [Markdown](https://guides.github.com/features/mastering-markdown/)
+* e.g.:
+```markdown
+# Header 1
+## Header 2
+### Header 3
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
 
 ### Step 7. Add more pages
-* Create extra .md files to create extra pages
+* Create additional .md files to create extra pages
 * e.g. /about/contact-us.md
 
 ### For more details check out
