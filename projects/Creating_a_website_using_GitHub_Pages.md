@@ -28,12 +28,12 @@ description: Put in a new description here.
 * Make use of [Markdown](https://guides.github.com/features/mastering-markdown/)
 * e.g.:
 ```markdown
-* Top level header: # Header 1
-* 2nd level header: ## Header 2
-* 3rd level header: ### Header 3
-* Bold, Italic and Code text: **Bold** and _Italic_ and `Code` text
-* Links: [Link](url)
-* Images: ![Image](src)
+Top level header: # Header 1
+2nd level header: ## Header 2
+3rd level header: ### Header 3
+Bold, Italic and Code text: **Bold** and _Italic_ and `Code` text
+Links: '[Link](url)'
+Images: '![Image](src)'
 ```
 
 ### Step 7. Add more pages
