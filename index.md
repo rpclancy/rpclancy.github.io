@@ -1,3 +1,6 @@
+### Instructions for how this website is made
+[Creating_a_website_using_GitHub_Pages](https://github.com/rpclancy/rpclancy.github.io/tree/master/projects/Creating_a_website_using_GitHub_Pages.md)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/rpclancy/rpclancy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
