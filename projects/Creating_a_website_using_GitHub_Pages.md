@@ -21,8 +21,6 @@
 ```markdown
 title: Put in a new title here
 description: Put in a new description here.
-
-(You can use <br> for new lines)
 ```
 
 ### Step 6. Customise your homepage
