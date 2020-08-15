@@ -32,6 +32,6 @@ description: Put in a new description here.
 * Create extra .md files to create extra pages
 * e.g. /about/contact-us.md
 
-### For more details checkout
-* https://docs.github.com/en/github/working-with-github-pages
-* https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll
+### For more details check out
+* [https://docs.github.com/en/github/working-with-github-pages](https://docs.github.com/en/github/working-with-github-pages)
+* [https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll])https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll)
