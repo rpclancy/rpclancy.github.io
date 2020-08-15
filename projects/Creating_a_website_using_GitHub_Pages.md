@@ -34,6 +34,7 @@ description: Put in a new description here.
 * Bold, Italic and Code text: **Bold** and _Italic_ and `Code` text
 * Links: [Link](url)
 * Images: ![Image](src)
+```
 
 ### Step 7. Add more pages
 * Create additional .md files to create extra pages
