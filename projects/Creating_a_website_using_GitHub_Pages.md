@@ -1,4 +1,4 @@
-## Here's how I made this website using GitHub Pages
+## Here's how I made this website using GitHub Pages:
 
 ### Step 1. Go to GitHub.
 * Log into your [GitHub account](https://github.com/).
@@ -21,6 +21,7 @@
 ```markdown
 title: Put in a new title here
 description: Put in a new description here.
+
 (You can use <br> for new lines)
 ```
 ### Step 6. Customise your homepage
