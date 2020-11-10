@@ -145,7 +145,7 @@
 										<p>To remove an environment entirely:<br>
 										conda env remove -n myenv</p>
 										<header>
-											<h3>Step 4. Set up environment to work with Jupyter notebooks</h3>
+											<h3>Step 4. Set up environment to work with Jupyter notebooks.</h3>
 										</header>
 										<p>Install ipykernel package:<br>
 										conda install ipykernel </p>
@@ -160,10 +160,36 @@
 										"argv" in that json should point to a python folder *within your virtual environment*.<br>
 										If not something went wrong. Remove kernel from jupyter and try to re-add.</p>
 										<header>
-											<h3>Step 5. Adding, updating and removing packages</h3>
+											<h3>Step 5. Adding, updating and removing packages.</h3>
 										</header>
+										<p>First activate your environment</p>
 										<p>To view all packages in current environment:<br>
 										conda list</p>
+										<p>To install a package:<br>
+										conda install packagename<br>
+										or:<br>
+										pip install packagename</p>
+										<p> To install a specific package version:<br>
+										conda install packagename=1.11<br>
+										or for stricter constraints:<br>
+										conda install packagename==1.11</pr>
+										<p>To specify conda forge:<br>
+										conda install --channel conda-forge packagename</pr>
+										<p>To update a package:<br>
+										conda update packagename</p>
+										<p>To remove a package:<br>
+										conda remove --name myenv packagename</p>
+										<header>
+											<h3>Misc tips.</h3>
+										</header>
+										<p>To check python version:<br>
+										python --version</p>
+										<p>To check python path:<br>
+										which -a python (1st entry is path used)</p>
+										<p>To see history of environment:<br>
+										conda list --revisions</p>
+										<p>To revert back to an old version of environment:<br>
+										conda install --revision 2</p>
 									</section>
 								</div>
 
