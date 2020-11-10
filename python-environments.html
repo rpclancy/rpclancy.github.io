@@ -114,7 +114,18 @@
 										<header>
 											<h3>Step 1. Installing Anaconda.</h3>
 										</header>
-										<p>Log into or set up your <a href="http://github.com/">Github account</a>.</p>
+										<p>Find a link to the command line installer<br>
+										e.g. https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh</p>
+										<p>In terminal enter:<br>
+										wget link_to_installer<br>
+										then:<br>
+										bash installer.sh</p>
+										<p>Let it initialize conda for you when it asks.<br>
+										Check .bashrc to see if this puts in the path correctly.<br>
+										If using a different shell (e.g. tcsh on atmos computers check .tcshrc)<br>
+										For zsh on Mac use: bash -c "conda init zsh"</p>
+										<p>Verify conda installation using:<br>
+										conda info</p>
 										<header>
 											<h3>Step 2.</h3>
 										</header>
