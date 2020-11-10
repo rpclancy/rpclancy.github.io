@@ -117,9 +117,7 @@
 										<p>Find a link to the command line installer<br>
 										e.g. https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh</p>
 										<p>In terminal enter:<br>
-										<code>
-										wget link_to_installer
-										</code><br>
+										wget link_to_installer<br>
 										then:<br>
 										bash installer.sh</p>
 										<p>Let it initialize conda for you when it asks.<br>
@@ -129,38 +127,43 @@
 										<p>Verify conda installation using:<br>
 										conda info</p>
 										<header>
-											<h3>Step 2.</h3>
+											<h3>Step 2. Create a new virtual environment.</h3>
 										</header>
-										<p>Create a new repository. Name it username.github.io, where username is your GitHub username.</p>
+										<p>To see available environments:<br>
+										conda env list</p>
+										<p>To create a new environment use one of these:<br>
+										conda create -n myenv  (change myenv to name)<br>
+										conda create -n myenv python=3.6 (for a specific python version)<br>
+										conda create --clone myenv --name myenv2</pr>
 										<header>
-											<h3>Step 3.</h3>
+											<h3>Step 3. Activating an environment</h3>
 										</header>
-										<p>Head over to <a href="https://html5up.net/">html5up.net</a>. Pick a theme you like and download it.
-										I used the "Twenty" theme. You'll be able to customise the images and a lot of the look, so focus more
-										on the general layout of the theme.</p>
+										<p>Environments must be activated to update or use them:<br>
+										conda activate myenv</p>
+										<p>To stop working with an environment:<br>
+										conda deactivate</p>
+										<p>To remove an environment entirely:<br>
+										conda env remove -n myenv</p>
 										<header>
-											<h3>Step 4.</h3>
+											<h3>Step 4. Set up environment to work with Jupyter notebooks</h3>
 										</header>
-										<p>Unzip the downloaded theme. Upload these files to the repository you created. There are two ways to
-										do this depending on how comfortable you are with GitHub. The fancy way, and one which you'll eventually
-										want to learn involves cloning your repository so you have a copy of it on your desktop, moving the files
-										into there, then using git add -A, git commit, then git push. If that sounds like nonsense to you, then 
-										going to https://github.com/username/username.github.io (again, swap your username in), clicking add file,
-										upload files allows you to use the GitHub website user interface, which is pretty simple.</p>
+										<p>Install ipykernel package:<br>
+										conda install ipykernel </p>
+										<p>Then add the environment (i.e. kernel) to Jupyter using:<br>
+										python -m ipykernel install --user --name=myenv </p>
+										<p>To remove an environment from Jupyter use:<br>
+										jupyter kernelspec list<br>
+										jupyter kernelspec uninstall myenv</p>
+										<p>To check that the kernel is set up for jupyter notebooks correctly:<br>
+										Make sure you did the adding of the kernel to jupyter when environment was activated.<br>
+										jupyter kernelspec list will point you to a directory with kernel.json.<br>
+										"argv" in that json should point to a python folder *within your virtual environment*.<br>
+										If not something went wrong. Remove kernel from jupyter and try to re-add.</p>
 										<header>
-											<h3>Step 5.</h3>
+											<h3>Step 5. Adding, updating and removing packages</h3>
 										</header>
-										<p>You should now have a working website, albeit a prety generic one. Visit username.github.io
-										(once again, change username to your username) to check it out. If it's not there yet then sometimes
-										it helps to wait a minute or two and try again.</p>
-										<header>
-											<h3>Step 6.</h3>
-										</header>
-										<p>You've done the hard part. Now you just have to learn html, css etc. etc. so you can tweak the website
-										to be a bit more personal. I'll leave those very minor details for someone else to cover. My one tip is
-										that using right click->inspect will allow you to see the code behind various features in your own or
-										other people's websites, which makes tweaking your own features or borrowing someone else's a little
-										easier. Good luck and have fun :)</p>
+										<p>To view all packages in current environment:<br>
+										conda list</p>
 									</section>
 								</div>
 
